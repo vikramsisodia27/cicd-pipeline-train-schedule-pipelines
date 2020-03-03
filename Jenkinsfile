@@ -1,5 +1,5 @@
 pipeline {
-  agent only
+  agent any
   stage {
     stage ('Build'){
       echo 'Running Build'
